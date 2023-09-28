@@ -1,0 +1,80 @@
+.parallax-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  perspective: 1000px;
+}
+
+.title {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+}
+
+.parallax-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.parallax-background {
+  margin-top: -90px;
+  transform: translateY(0);
+}
+
+.parallax-foreground {
+  margin-top: 100px;
+  transform: translateY(0);
+}
+
+.parallax-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+}
+
+.imgFrente {
+  margin-top: -250px;
+}
+
+/* Estilos adicionales para tu contenido web */
+
+
+/*.parallax-container {
+  position: relative;
+  width: 100%;
+  height: 500vh;
+  overflow: hidden;
+}
+
+.parallax-layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  opacity: 0.8;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-background {
+  width : 100%;
+}
+
+.img-front {
+  width: 80%;
+}
+*/

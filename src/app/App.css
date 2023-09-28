@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  height: 100px;
+}
+
+.content {
+  height: 1000px; /* Para crear espacio de desplazamiento */
+  padding: 20px;
+}
+
+.imgLogo {
+  margin-top: -20px;
+  width: 20%;
+}
